@@ -1,7 +1,7 @@
 //your JS code here. If required.
 
 function removeColor() {
-    var select = document.getElementById("colorSelec");
+    var select = document.getElementById("colorSelect");
 	var selectedOption = select.options[select.selectedIndex];
 	select.removeChild(selectedOption);
 } 
